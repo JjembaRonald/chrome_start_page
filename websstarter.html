@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Welcome Ronald</title>
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Bokor&family=Doto:wght@100..900&family=Geist+Mono:wght@100..900&family=Jaro:opsz@6..72&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Jersey+15&family=Playwrite+US+Trad+Guides&family=Rubik+Vinyl&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Jersey+15&family=Rubik+Vinyl&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Jersey+15&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Jersey+15&family=Rubik+Vinyl&display=swap');
+        h1{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin-top: 100px;
+            line-height: 80px;
+            font-weight: 45px;
+            font-size: 80px;
+            /* font-family: Rubik Vinyl; */
+            /* font-family: Playwrite USA Traditional Guides; */
+            font-family: bokor;
+            color: rgb(130, 215, 11);
+            
+        }
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            box-sizing: border-box;
+            overflow: hidden;
+            /* padding-top: 0; */
+            /* display: flex; */
+            /* justify-content: center; */
+            /* align-items: center; */
+            background-image: url(prince.jpg);
+            background-size: cover;
+            background-position: center center;
+            background-repeat: no-repeat;
+            min-height: 100vh;
+        }
+        .search input[type = text],button{
+            font-size: 30px;
+            border-radius: 20px;
+            border: 3px solid gray;
+            padding: 10px;
+        }
+        input[type = text]{
+            width: 78%;
+            margin-right: 12px;
+        }
+        button{
+            width: 20%;
+        }
+        .message{
+            margin-top: 30px;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div style="margin-top: 0px; height: 50px;" class="row">
+          <div class="search">
+            <form action="https://www.google.com/search" method="get"> 
+                <input type="text" name="q" placeholder="Search..." />
+                <button type="submit"><a style="text-decoration: none; color: black;" href="#">Search</a></button>
+              </form>
+        </div>
+        </div>
+        <div class="row">
+            <h1 class="message"><span style="color: rgb(238, 238, 229);">Your</span> &nbsp; <span style="color: rgb(205, 2, 120);">Most</span> &nbsp; <span style="color: red;">welcome</span>  <br> Your &nbsp; &nbsp; Highness <br>
+                <b style="color: rgb(144, 17, 17);">Prince &nbsp;  Ronald</b>
+           </h1>
+        </div>
+      </div>
+    
+</body>
+</html>
